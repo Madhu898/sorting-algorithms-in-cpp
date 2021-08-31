@@ -1,3 +1,5 @@
+\\code was taken from code with harry in his tutorial of datastructures and algorithms
+\\simplified algorithms
 #include<iostream>
 using namespace std;
 int main()
@@ -24,8 +26,6 @@ int main()
         }
         a[j+1]=key;
     }
-   
-
     cout<<"array after sorting  "<<endl;
     for(int i=0;i<n;i++)
     {
